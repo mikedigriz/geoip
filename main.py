@@ -1,13 +1,7 @@
 '''
 Parse ip address, return csv-file with IP, Country.
-
-I'm use it for visualize site geo-data.
-Ex:
-echo "select ip from tablename;"| mysql -u db_username -pPa$$word db_name > ./assets/http.txt
+Change ip_file = 'your_file.txt'
 '''
-
-#TODO Прикрутить Sqlite, Прикрутить TG-бот
-
 from src import Reader
 
 
